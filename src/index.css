@@ -1,0 +1,227 @@
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+/* StartNavBar */
+.myNavBar{
+  display: flex;
+  justify-content: space-between;
+}
+.NavBar{
+  background-color: #fff !important;
+}
+.LogoAndSearch{
+  display: flex;
+}
+.Logo{
+  display: flex;
+  align-items: center;
+}
+.Control{
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  width: 350px
+}
+.search__box {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  width: 350px;
+  background: #F5F4F6 !important;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 25px;
+}
+
+.search__box input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.IconAndPhoto{
+  display: flex;
+  align-items: center;
+}
+.LogoName{
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.LogoImage{
+  margin-left: 15px;
+  width: 35px
+}
+.ManPhoto{
+  border-radius: 50%;
+}
+/* End Nav Bar */
+/* Start Side Bar */
+.Side{
+  margin-left: 15px;
+}
+
+
+.SideBar{
+  width: 100%;
+  margin-left: 15px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+ position: fixed;
+}
+/* End SideBar */
+
+/* Start Booking */
+.BookingName{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.SelectOption {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+
+.SelectTheOption select {
+  border: none;
+  padding: 7px 20px;
+  border-radius: 50px;
+  background: #fff;
+  color: #5F6165;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+
+.myIcon{
+  margin-bottom: 2rem;
+  padding: 4px 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #72767C;
+  margin-right: 10px;
+}
+.Icon2{
+  margin-bottom: 2rem;
+  padding: 4px 12px;
+  background-color: #A162F7;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #fff;
+}
+
+
+.ImgCard{
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  align-items: center;
+}
+.CarName{
+  font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #242731;
+}
+.IconLove{
+  cursor: pointer;
+
+}
+.IconLove:hover{
+color: red;
+}
+.CarType{
+  color: #72767C;
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+}
+.Details{
+  color: #72767C;
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+}
+.DetailsIcon{
+  color: #A162F7;
+}
+
+.CarPrice{
+  font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+}
+/* End Booking  */
+/* Start Dashboard */
+.CartName{
+  font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+}
+
+.semicircle-percent-value:first-child, :not(.semicircle-percent-value) + .semicircle-percent-value{
+ 
+  font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+}
+.StatName{
+  font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+/* primary/dark 1 */
+
+color: #242731;
+}
+.StatStat{
+  font-weight: 400;
+}
+.StatDay{
+  color: #fff;
+  background-color: #2884FF;
+  border-radius: 24px;
+  padding: 1px 6px;
+  margin-right: 10px;
+}
+.StatWeek{
+  margin-right: 10px;
+}
+.StatMiles{
+  font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+
+/* gray/dark 2 */
+
+color: #5F6165;
+}
+
+.StatDayCar{
+  color: #fff;
+  background-color: #FF764C;
+  border-radius: 24px;
+  padding: 1px 6px;
+  margin-right: 25px;
+}
+.StatWeekCar{
+  margin-right: 25px;
+}
+.CarPriceDash{
+  color:#72767C;
+  font-size:16px;
+}
+/* End dashboard */
